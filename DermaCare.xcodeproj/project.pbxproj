@@ -10,8 +10,6 @@
 		2DAB736164AF72062D71B6D8 /* Pods_DermaCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F32CD5ABAA8E19E5C367DB40 /* Pods_DermaCare.framework */; };
 		4ADB45B0FFA633B48895BC0D /* Pods_DermaCare_DermaCareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F783BC456204BA2C75E8867B /* Pods_DermaCare_DermaCareUITests.framework */; };
 		52CB60EA2CC3B22300B4C123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB60E92CC3B22300B4C123 /* AppDelegate.swift */; };
-		52CB60EC2CC3B22300B4C123 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB60EB2CC3B22300B4C123 /* SceneDelegate.swift */; };
-		52CB60EE2CC3B22300B4C123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB60ED2CC3B22300B4C123 /* ViewController.swift */; };
 		52CB60F12CC3B22300B4C123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CB60EF2CC3B22300B4C123 /* Main.storyboard */; };
 		52CB60F42CC3B22300B4C123 /* DermaCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52CB60F22CC3B22300B4C123 /* DermaCare.xcdatamodeld */; };
 		52CB60F62CC3B22500B4C123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CB60F52CC3B22500B4C123 /* Assets.xcassets */; };
@@ -413,6 +411,14 @@
 		52CB64E72CC3B86A00B4C123 /* IQTextFieldViewListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB64B82CC3B86900B4C123 /* IQTextFieldViewListener.swift */; };
 		52CB64E82CC3B86A00B4C123 /* IQTextFieldViewInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB64BA2CC3B86900B4C123 /* IQTextFieldViewInfo.swift */; };
 		52CB64E92CC3B86A00B4C123 /* IQKeyboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB64BB2CC3B86900B4C123 /* IQKeyboardInfo.swift */; };
+		52CB64F22CC3BD1100B4C123 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB64F12CC3BD1100B4C123 /* Constants.swift */; };
+		52CB64F42CC3BD9700B4C123 /* lottieLoder.json in Resources */ = {isa = PBXBuildFile; fileRef = 52CB64F32CC3BD9700B4C123 /* lottieLoder.json */; };
+		52CB64F72CC3C02600B4C123 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB64F62CC3C02600B4C123 /* SplashVC.swift */; };
+		52CB64FE2CC3D2A800B4C123 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB64FD2CC3D2A800B4C123 /* LogInVC.swift */; };
+		52CB65002CC3D2C200B4C123 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB64FF2CC3D2C200B4C123 /* SignUpVC.swift */; };
+		52CB65022CC3D2DA00B4C123 /* ForgetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB65012CC3D2DA00B4C123 /* ForgetVC.swift */; };
+		52CB65052CC3D31000B4C123 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB65042CC3D31000B4C123 /* HomeVC.swift */; };
+		52CB650A2CC3D8FF00B4C123 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB65092CC3D8FF00B4C123 /* SceneDelegate.swift */; };
 		A4E46FE38A39ADFCC149D6A8 /* Pods_DermaCareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A168D0AE044D2379FF370338 /* Pods_DermaCareTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -440,13 +446,10 @@
 		40443B88C61035B674A391CE /* Pods-DermaCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DermaCare.release.xcconfig"; path = "Target Support Files/Pods-DermaCare/Pods-DermaCare.release.xcconfig"; sourceTree = "<group>"; };
 		52CB60E62CC3B22300B4C123 /* DermaCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DermaCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CB60E92CC3B22300B4C123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52CB60EB2CC3B22300B4C123 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52CB60ED2CC3B22300B4C123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52CB60F02CC3B22300B4C123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52CB60F32CC3B22300B4C123 /* DermaCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DermaCare.xcdatamodel; sourceTree = "<group>"; };
 		52CB60F52CC3B22500B4C123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52CB60F82CC3B22500B4C123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		52CB60FA2CC3B22500B4C123 /* DermaCare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DermaCare.entitlements; sourceTree = "<group>"; };
 		52CB60FB2CC3B22500B4C123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52CB61002CC3B22600B4C123 /* DermaCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DermaCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CB61042CC3B22600B4C123 /* DermaCareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DermaCareTests.swift; sourceTree = "<group>"; };
@@ -923,6 +926,15 @@
 		52CB64B82CC3B86900B4C123 /* IQTextFieldViewListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextFieldViewListener.swift; sourceTree = "<group>"; };
 		52CB64BA2CC3B86900B4C123 /* IQTextFieldViewInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextFieldViewInfo.swift; sourceTree = "<group>"; };
 		52CB64BB2CC3B86900B4C123 /* IQKeyboardInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardInfo.swift; sourceTree = "<group>"; };
+		52CB64F12CC3BD1100B4C123 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		52CB64F32CC3BD9700B4C123 /* lottieLoder.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottieLoder.json; sourceTree = "<group>"; };
+		52CB64F62CC3C02600B4C123 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		52CB64FD2CC3D2A800B4C123 /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		52CB64FF2CC3D2C200B4C123 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		52CB65012CC3D2DA00B4C123 /* ForgetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetVC.swift; sourceTree = "<group>"; };
+		52CB65042CC3D31000B4C123 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		52CB65082CC3D47600B4C123 /* DermaCare.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = DermaCare.entitlements; sourceTree = "<group>"; };
+		52CB65092CC3D8FF00B4C123 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A168D0AE044D2379FF370338 /* Pods_DermaCareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DermaCareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B613AC3B984DE8843707DE /* Pods-DermaCare-DermaCareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DermaCare-DermaCareUITests.release.xcconfig"; path = "Target Support Files/Pods-DermaCare-DermaCareUITests/Pods-DermaCare-DermaCareUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E09F4FD5486A5FBF88FCC810 /* Pods-DermaCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DermaCare.debug.xcconfig"; path = "Target Support Files/Pods-DermaCare/Pods-DermaCare.debug.xcconfig"; sourceTree = "<group>"; };
@@ -988,6 +1000,7 @@
 				52CB64EB2CC3BAA900B4C123 /* Assets */,
 				52CB64ED2CC3BAD300B4C123 /* CoreData */,
 				52CB64EC2CC3BAB800B4C123 /* StoryBoards */,
+				52CB64F02CC3BCF600B4C123 /* Constants */,
 				52CB64EE2CC3BAE100B4C123 /* ViewControllers */,
 				52CB60FB2CC3B22500B4C123 /* Info.plist */,
 				52CB611D2CC3B30B00B4C123 /* GoogleService-Info.plist */,
@@ -2202,7 +2215,7 @@
 			isa = PBXGroup;
 			children = (
 				52CB60E92CC3B22300B4C123 /* AppDelegate.swift */,
-				52CB60EB2CC3B22300B4C123 /* SceneDelegate.swift */,
+				52CB65092CC3D8FF00B4C123 /* SceneDelegate.swift */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -2218,7 +2231,7 @@
 		52CB64EC2CC3BAB800B4C123 /* StoryBoards */ = {
 			isa = PBXGroup;
 			children = (
-				52CB60FA2CC3B22500B4C123 /* DermaCare.entitlements */,
+				52CB65082CC3D47600B4C123 /* DermaCare.entitlements */,
 				52CB60F72CC3B22500B4C123 /* LaunchScreen.storyboard */,
 				52CB60EF2CC3B22300B4C123 /* Main.storyboard */,
 			);
@@ -2236,7 +2249,8 @@
 		52CB64EE2CC3BAE100B4C123 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				52CB60ED2CC3B22300B4C123 /* ViewController.swift */,
+				52CB65032CC3D2FE00B4C123 /* HomeVC */,
+				52CB64FC2CC3D28500B4C123 /* LoginDataVC */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -2249,6 +2263,66 @@
 				52CB64812CC3B86900B4C123 /* IQKeyboardManagerSwift */,
 			);
 			path = PodsFrom;
+			sourceTree = "<group>";
+		};
+		52CB64F02CC3BCF600B4C123 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				52CB64F32CC3BD9700B4C123 /* lottieLoder.json */,
+				52CB64F12CC3BD1100B4C123 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		52CB64F52CC3C00D00B4C123 /* SplashVC */ = {
+			isa = PBXGroup;
+			children = (
+				52CB64F62CC3C02600B4C123 /* SplashVC.swift */,
+			);
+			path = SplashVC;
+			sourceTree = "<group>";
+		};
+		52CB64F82CC3D21D00B4C123 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				52CB64FD2CC3D2A800B4C123 /* LogInVC.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		52CB64FA2CC3D27200B4C123 /* SignUpVC */ = {
+			isa = PBXGroup;
+			children = (
+				52CB64FF2CC3D2C200B4C123 /* SignUpVC.swift */,
+			);
+			path = SignUpVC;
+			sourceTree = "<group>";
+		};
+		52CB64FB2CC3D27C00B4C123 /* ForgetVC */ = {
+			isa = PBXGroup;
+			children = (
+				52CB65012CC3D2DA00B4C123 /* ForgetVC.swift */,
+			);
+			path = ForgetVC;
+			sourceTree = "<group>";
+		};
+		52CB64FC2CC3D28500B4C123 /* LoginDataVC */ = {
+			isa = PBXGroup;
+			children = (
+				52CB64FB2CC3D27C00B4C123 /* ForgetVC */,
+				52CB64FA2CC3D27200B4C123 /* SignUpVC */,
+				52CB64F82CC3D21D00B4C123 /* LoginVC */,
+				52CB64F52CC3C00D00B4C123 /* SplashVC */,
+			);
+			path = LoginDataVC;
+			sourceTree = "<group>";
+		};
+		52CB65032CC3D2FE00B4C123 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				52CB65042CC3D31000B4C123 /* HomeVC.swift */,
+			);
+			path = HomeVC;
 			sourceTree = "<group>";
 		};
 		68F284E421C5E840229938CA /* Frameworks */ = {
@@ -2286,6 +2360,7 @@
 				52CB60E32CC3B22300B4C123 /* Frameworks */,
 				52CB60E42CC3B22300B4C123 /* Resources */,
 				DEBA56B4D9C9C7613A66583C /* [CP] Embed Pods Frameworks */,
+				52CB65062CC3D41B00B4C123 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -2383,6 +2458,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CB64F42CC3BD9700B4C123 /* lottieLoder.json in Resources */,
 				52CB60F92CC3B22500B4C123 /* LaunchScreen.storyboard in Resources */,
 				52CB611E2CC3B30B00B4C123 /* GoogleService-Info.plist in Resources */,
 				52CB60F62CC3B22500B4C123 /* Assets.xcassets in Resources */,
@@ -2407,6 +2483,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		52CB65062CC3D41B00B4C123 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
 		9F44B410E3C6C71DF77FAFF3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2554,7 +2647,6 @@
 				52CB64D82CC3B86A00B4C123 /* IQKeyboardManager.swift in Sources */,
 				52CB64BF2CC3B86A00B4C123 /* IQToolbarPlaceholderConfiguration.swift in Sources */,
 				52CB64672CC3B85E00B4C123 /* AnimatorNodeDebugging.swift in Sources */,
-				52CB60EE2CC3B22300B4C123 /* ViewController.swift in Sources */,
 				52CB61E12CC3B84900B4C123 /* SDAnimatedImageRep.m in Sources */,
 				52CB63B12CC3B85D00B4C123 /* FillRenderer.swift in Sources */,
 				52CB646C2CC3B85E00B4C123 /* StringExtensions.swift in Sources */,
@@ -2597,11 +2689,13 @@
 				52CB63B62CC3B85D00B4C123 /* PassThroughOutputNode.swift in Sources */,
 				52CB61EA2CC3B84900B4C123 /* SDWebImageTransition.m in Sources */,
 				52CB64122CC3B85D00B4C123 /* LayerStyle.swift in Sources */,
+				52CB64F72CC3C02600B4C123 /* SplashVC.swift in Sources */,
 				52CB64212CC3B85D00B4C123 /* Rectangle.swift in Sources */,
 				52CB64442CC3B85E00B4C123 /* SolidLayer.swift in Sources */,
 				52CB63D92CC3B85D00B4C123 /* URL+ZIP.swift in Sources */,
 				52CB638D2CC3B85D00B4C123 /* LottieAnimationCache.swift in Sources */,
 				52CB64352CC3B85D00B4C123 /* LayerEffect.swift in Sources */,
+				52CB65002CC3D2C200B4C123 /* SignUpVC.swift in Sources */,
 				52CB61DE2CC3B84900B4C123 /* NSButton+WebCache.m in Sources */,
 				52CB64792CC3B85E00B4C123 /* InterpolatableExtensions.swift in Sources */,
 				52CB64622CC3B85E00B4C123 /* VisibilityAnimation.swift in Sources */,
@@ -2617,6 +2711,7 @@
 				52CB64732CC3B85E00B4C123 /* PathElement.swift in Sources */,
 				52CB63B42CC3B85D00B4C123 /* GroupOutputNode.swift in Sources */,
 				52CB63B82CC3B85D00B4C123 /* PolygonNode.swift in Sources */,
+				52CB64F22CC3BD1100B4C123 /* Constants.swift in Sources */,
 				52CB63D62CC3B85D00B4C123 /* Data+Compression.swift in Sources */,
 				52CB63BA2CC3B85D00B4C123 /* ShapeNode.swift in Sources */,
 				52CB64CB2CC3B86A00B4C123 /* IQUIView+IQKeyboardToolbarDeprecated.swift in Sources */,
@@ -2653,6 +2748,7 @@
 				52CB63CA2CC3B85D00B4C123 /* ShapeRenderLayer.swift in Sources */,
 				52CB61FD2CC3B84900B4C123 /* SDImageAssetManager.m in Sources */,
 				52CB641A2CC3B85D00B4C123 /* Group.swift in Sources */,
+				52CB65052CC3D31000B4C123 /* HomeVC.swift in Sources */,
 				52CB64032CC3B85D00B4C123 /* UIViewConfiguringSwiftUIView.swift in Sources */,
 				52CB63FB2CC3B85D00B4C123 /* EpoxyModelArrayBuilder.swift in Sources */,
 				52CB61C32CC3B84800B4C123 /* SDWebImageOperation.m in Sources */,
@@ -2720,6 +2816,7 @@
 				52CB64C72CC3B86A00B4C123 /* IQPreviousNextView.swift in Sources */,
 				52CB61E02CC3B84900B4C123 /* SDDiskCache.m in Sources */,
 				52CB63C32CC3B85D00B4C123 /* AnyNodeProperty.swift in Sources */,
+				52CB650A2CC3D8FF00B4C123 /* SceneDelegate.swift in Sources */,
 				52CB61D22CC3B84900B4C123 /* SDGraphicsImageRenderer.m in Sources */,
 				52CB61EF2CC3B84900B4C123 /* SDImageCacheDefine.m in Sources */,
 				52CB63EC2CC3B85D00B4C123 /* DidEndDisplayingProviding.swift in Sources */,
@@ -2755,9 +2852,9 @@
 				52CB64C12CC3B86A00B4C123 /* IQActiveConfiguration.swift in Sources */,
 				52CB63A62CC3B85D00B4C123 /* LayerTransformNode.swift in Sources */,
 				52CB64012CC3B85D00B4C123 /* BehaviorsConfigurableView.swift in Sources */,
+				52CB65022CC3D2DA00B4C123 /* ForgetVC.swift in Sources */,
 				52CB63D02CC3B85D00B4C123 /* Archive+MemoryFile.swift in Sources */,
 				52CB643F2CC3B85E00B4C123 /* TextLayer.swift in Sources */,
-				52CB60EC2CC3B22300B4C123 /* SceneDelegate.swift in Sources */,
 				52CB63B92CC3B85D00B4C123 /* RectNode.swift in Sources */,
 				52CB64482CC3B85E00B4C123 /* AnimationLayer.swift in Sources */,
 				52CB61CB2CC3B84800B4C123 /* SDImageAWebPCoder.m in Sources */,
@@ -2782,6 +2879,7 @@
 				52CB64D52CC3B86A00B4C123 /* IQKeyboardManager+Internal.swift in Sources */,
 				52CB63882CC3B85D00B4C123 /* LottieViewType.swift in Sources */,
 				52CB61F62CC3B84900B4C123 /* UIView+WebCache.m in Sources */,
+				52CB64FE2CC3D2A800B4C123 /* LogInVC.swift in Sources */,
 				52CB64462CC3B85E00B4C123 /* RepeaterLayer.swift in Sources */,
 				52CB639F2CC3B85D00B4C123 /* SolidCompositionLayer.swift in Sources */,
 				52CB61D42CC3B84900B4C123 /* SDImageCodersManager.m in Sources */,
