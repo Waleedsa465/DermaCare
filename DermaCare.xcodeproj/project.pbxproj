@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		2DAB736164AF72062D71B6D8 /* Pods_DermaCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F32CD5ABAA8E19E5C367DB40 /* Pods_DermaCare.framework */; };
 		4ADB45B0FFA633B48895BC0D /* Pods_DermaCare_DermaCareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F783BC456204BA2C75E8867B /* Pods_DermaCare_DermaCareUITests.framework */; };
+		524146352CC3F597009B1D49 /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241462E2CC3F596009B1D49 /* ToastWindow.swift */; };
+		524146362CC3F597009B1D49 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241462F2CC3F596009B1D49 /* ToastView.swift */; };
+		524146372CC3F597009B1D49 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524146312CC3F596009B1D49 /* Toast.swift */; };
+		524146382CC3F597009B1D49 /* ToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524146322CC3F596009B1D49 /* ToastCenter.swift */; };
+		5241464B2CC5430D009B1D49 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241464A2CC5430D009B1D49 /* CustomTextField.swift */; };
+		5241464D2CC544E9009B1D49 /* CustomButtonCornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241464C2CC544E9009B1D49 /* CustomButtonCornerRadius.swift */; };
 		52CB60EA2CC3B22300B4C123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB60E92CC3B22300B4C123 /* AppDelegate.swift */; };
 		52CB60F12CC3B22300B4C123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CB60EF2CC3B22300B4C123 /* Main.storyboard */; };
 		52CB60F42CC3B22300B4C123 /* DermaCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52CB60F22CC3B22300B4C123 /* DermaCare.xcdatamodeld */; };
@@ -444,6 +450,13 @@
 		2FC7BBCE2FCCCB138D41761A /* Pods-DermaCareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DermaCareTests.debug.xcconfig"; path = "Target Support Files/Pods-DermaCareTests/Pods-DermaCareTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C9BB9DD3927638F23C46765 /* Pods-DermaCare-DermaCareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DermaCare-DermaCareUITests.debug.xcconfig"; path = "Target Support Files/Pods-DermaCare-DermaCareUITests/Pods-DermaCare-DermaCareUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		40443B88C61035B674A391CE /* Pods-DermaCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DermaCare.release.xcconfig"; path = "Target Support Files/Pods-DermaCare/Pods-DermaCare.release.xcconfig"; sourceTree = "<group>"; };
+		5241462E2CC3F596009B1D49 /* ToastWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastWindow.swift; sourceTree = "<group>"; };
+		5241462F2CC3F596009B1D49 /* ToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		524146302CC3F596009B1D49 /* Toaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toaster.h; sourceTree = "<group>"; };
+		524146312CC3F596009B1D49 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		524146322CC3F596009B1D49 /* ToastCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastCenter.swift; sourceTree = "<group>"; };
+		5241464A2CC5430D009B1D49 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		5241464C2CC544E9009B1D49 /* CustomButtonCornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonCornerRadius.swift; sourceTree = "<group>"; };
 		52CB60E62CC3B22300B4C123 /* DermaCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DermaCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CB60E92CC3B22300B4C123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52CB60F02CC3B22300B4C123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -970,6 +983,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5241462A2CC3F596009B1D49 /* Toaster */ = {
+			isa = PBXGroup;
+			children = (
+				5241462D2CC3F596009B1D49 /* Sources */,
+			);
+			path = Toaster;
+			sourceTree = "<group>";
+		};
+		5241462D2CC3F596009B1D49 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5241462E2CC3F596009B1D49 /* ToastWindow.swift */,
+				5241462F2CC3F596009B1D49 /* ToastView.swift */,
+				524146302CC3F596009B1D49 /* Toaster.h */,
+				524146312CC3F596009B1D49 /* Toast.swift */,
+				524146322CC3F596009B1D49 /* ToastCenter.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		524146492CC542EA009B1D49 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5241464A2CC5430D009B1D49 /* CustomTextField.swift */,
+				5241464C2CC544E9009B1D49 /* CustomButtonCornerRadius.swift */,
+			);
+			path = "Custom Classes";
+			sourceTree = "<group>";
+		};
 		52CB60DD2CC3B22300B4C123 = {
 			isa = PBXGroup;
 			children = (
@@ -2258,6 +2300,7 @@
 		52CB64EF2CC3BB0A00B4C123 /* PodsFrom */ = {
 			isa = PBXGroup;
 			children = (
+				5241462A2CC3F596009B1D49 /* Toaster */,
 				52CB611F2CC3B84800B4C123 /* SDWebImage */,
 				52CB62062CC3B85B00B4C123 /* lottie-ios */,
 				52CB64812CC3B86900B4C123 /* IQKeyboardManagerSwift */,
@@ -2268,6 +2311,7 @@
 		52CB64F02CC3BCF600B4C123 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				524146492CC542EA009B1D49 /* Custom Classes */,
 				52CB64F32CC3BD9700B4C123 /* lottieLoder.json */,
 				52CB64F12CC3BD1100B4C123 /* Constants.swift */,
 			);
@@ -2712,6 +2756,7 @@
 				52CB63B42CC3B85D00B4C123 /* GroupOutputNode.swift in Sources */,
 				52CB63B82CC3B85D00B4C123 /* PolygonNode.swift in Sources */,
 				52CB64F22CC3BD1100B4C123 /* Constants.swift in Sources */,
+				5241464D2CC544E9009B1D49 /* CustomButtonCornerRadius.swift in Sources */,
 				52CB63D62CC3B85D00B4C123 /* Data+Compression.swift in Sources */,
 				52CB63BA2CC3B85D00B4C123 /* ShapeNode.swift in Sources */,
 				52CB64CB2CC3B86A00B4C123 /* IQUIView+IQKeyboardToolbarDeprecated.swift in Sources */,
@@ -2762,6 +2807,7 @@
 				52CB63AD2CC3B85D00B4C123 /* RoundedCornersNode.swift in Sources */,
 				52CB64662CC3B85E00B4C123 /* TestHelpers.swift in Sources */,
 				52CB61E22CC3B84900B4C123 /* UIImage+ExtendedCacheData.m in Sources */,
+				5241464B2CC5430D009B1D49 /* CustomTextField.swift in Sources */,
 				52CB64C82CC3B86A00B4C123 /* IQTitleBarButtonItem.swift in Sources */,
 				52CB61BE2CC3B84800B4C123 /* SDImageHEICCoder.m in Sources */,
 				52CB63762CC3B85D00B4C123 /* LottieAnimationViewInitializers.swift in Sources */,
@@ -2777,6 +2823,7 @@
 				52CB61F92CC3B84900B4C123 /* SDWebImageDownloaderRequestModifier.m in Sources */,
 				52CB64E22CC3B86A00B4C123 /* IQUIViewController+Additions.swift in Sources */,
 				52CB641C2CC3B85D00B4C123 /* Merge.swift in Sources */,
+				524146382CC3F597009B1D49 /* ToastCenter.swift in Sources */,
 				52CB642F2CC3B85D00B4C123 /* KeyframeGroup.swift in Sources */,
 				52CB646A2CC3B85E00B4C123 /* BlendMode+Filter.swift in Sources */,
 				52CB63732CC3B85D00B4C123 /* LottieAnimationLayer.swift in Sources */,
@@ -2827,10 +2874,12 @@
 				52CB64612CC3B85E00B4C123 /* DropShadowAnimation.swift in Sources */,
 				52CB63C72CC3B85D00B4C123 /* SingleValueProvider.swift in Sources */,
 				52CB63C92CC3B85D00B4C123 /* ItemsExtension.swift in Sources */,
+				524146362CC3F597009B1D49 /* ToastView.swift in Sources */,
 				52CB64552CC3B85E00B4C123 /* CoreAnimationLayer.swift in Sources */,
 				52CB63BF2CC3B85D00B4C123 /* FillNode.swift in Sources */,
 				52CB63862CC3B85D00B4C123 /* AnimatedButton.swift in Sources */,
 				52CB63702CC3B85D00B4C123 /* RenderingEngineOption.swift in Sources */,
+				524146352CC3F597009B1D49 /* ToastWindow.swift in Sources */,
 				52CB64DA2CC3B86A00B4C123 /* IQKeyboardManager+Toolbar.swift in Sources */,
 				52CB63FC2CC3B85D00B4C123 /* EpoxyModeled.swift in Sources */,
 				52CB64762CC3B85E00B4C123 /* VectorsExtensions.swift in Sources */,
@@ -2972,6 +3021,7 @@
 				52CB645B2CC3B85E00B4C123 /* StrokeAnimation.swift in Sources */,
 				52CB63A32CC3B85D00B4C123 /* MaskContainerLayer.swift in Sources */,
 				52CB63E92CC3B85D00B4C123 /* ViewDifferentiatorProviding.swift in Sources */,
+				524146372CC3F597009B1D49 /* Toast.swift in Sources */,
 				52CB64532CC3B85E00B4C123 /* Keyframes+timeRemapping.swift in Sources */,
 				52CB64432CC3B85E00B4C123 /* ImageLayer.swift in Sources */,
 				52CB61D12CC3B84900B4C123 /* SDWebImageIndicator.m in Sources */,

@@ -17,7 +17,6 @@ class SplashVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Splash")
-        userDefaults.set(true, forKey: strLoginData)
         checkIfAlreadySignIn()
     }
     func checkIfAlreadySignIn(){
@@ -26,14 +25,14 @@ class SplashVC: UIViewController {
                 print("HomeFrom Splash")
                 let vc = HomeVC.HomeVC()
                 let nav = UINavigationController(rootViewController: vc)
-                nav.isNavigationBarHidden = true
+//                nav.isNavigationBarHidden = false
                 self.view.window?.rootViewController = nav
 
             }else{
                 print("Login From Splash")
                 let vc = LogInVC.LogInVC()
                 let nav = UINavigationController(rootViewController: vc)
-                nav.isNavigationBarHidden = true
+//                nav.isNavigationBarHidden = false
                 self.view.window?.rootViewController = nav
             }
         }

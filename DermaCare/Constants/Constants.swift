@@ -71,3 +71,18 @@ func showLoader(controller:UIViewController){
 func hideLoader(){
     hudContainer.removeFromSuperview()
 }
+
+extension UIViewController {
+    func changeTextStringOnNavigationItem(text: String) {
+        let backButton = UIBarButtonItem()
+        backButton.title = text  // Your custom title here
+        navigationItem.backBarButtonItem = backButton
+    }
+    func topNameOfNavigationController(title : String, color : UIColor = .systemBlue,fontSize : CGFloat = 20 , fontWeight : UIFont.Weight = .regular){
+        self.navigationItem.title = title
+        self.navigationController?.navigationBar.titleTextAttributes = [
+            .foregroundColor: color,
+            .font: UIFont.systemFont(ofSize: fontSize, weight: fontWeight)
+        ]
+    }
+}
